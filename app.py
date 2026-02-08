@@ -21,7 +21,7 @@ with col1:
     homework = st.number_input("Homework %", 0, 100, 70)
 with col2:
     midterm = st.number_input("Midterm Score", 0, 100, 50)
-    study_hours = st.number_input("Study Hours per week", 0, 50, 10)
+    study_hours = st.number_input("Study Hours per week", 0, 50, 15)
 
 # ৩. প্রেডিকশন এবং ভিজ্যুয়ালাইজেশন
 if st.button("Analyze Now"):
